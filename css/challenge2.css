@@ -1,0 +1,98 @@
+/* --------- fonts ---------- */
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+
+*{
+    margin: 0;
+    padding:0;
+    border: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 15px;
+    height: 100vh;
+}
+body , button {
+    background-color:  hsl(0, 0%, 95%);
+}
+main{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flex_container{
+    width: 50.75%;
+    height: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left_section , .middle_section , .right_section{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+img{
+    width: 55px;
+    margin-bottom: 30px;
+}
+button{
+    width: 135px;
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 13px;
+    padding: 12px 10px;
+    border: 1px solid;
+    border-radius: 25px;
+    text-align: center;
+}
+h2{
+    margin-bottom: 30px;
+    color: hsl(0, 0%, 95%);
+    font-family: "Big Shoulders Display", cursive;
+    font-size: 35px;
+}
+p{
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 13px;
+    line-height: 180%;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-bottom: 70px;
+}
+button:hover{
+    cursor: pointer;
+    border: 1px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+}
+/* ------------------------------------------------- specially left section */
+.left_section{
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 7px 0 0 7px;
+}
+.btn1{
+    color:hsl(31, 77%, 52%) ;
+}
+.btn1:hover{
+    background-color:hsl(31, 77%, 52%);
+}
+/* -------------------------------------------------specially middle section */
+.middle_section{
+    background-color: hsl(184, 100%, 22%);
+}
+.btn2{
+    color:hsl(184, 100%, 22%) ;
+}
+.btn2:hover{
+    background-color:hsl(184, 100%, 22%);
+}
+/* --------------------------------------------------specially right section */
+.right_section{
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 7px 7px 0;
+}
+.btn3{
+    color:hsl(179, 100%, 13%) ;
+}
+.btn3:hover{
+    background-color:hsl(179, 100%, 13%);
+}
