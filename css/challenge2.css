@@ -104,6 +104,7 @@ button:hover{
     }
     .flex_container{
         flex-direction: column;
+        margin: 110%;
         width: 85%;
     }
     .left_section{
