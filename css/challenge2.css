@@ -96,3 +96,20 @@ button:hover{
 .btn3:hover{
     background-color:hsl(179, 100%, 13%);
 }
+/* ----------------------responsive-------------------------- */
+@media only screen and (max-width: 674px) {
+
+    body , main{
+        height: 100%;
+    }
+    .flex_container{
+        flex-direction: column;
+        width: 85%;
+    }
+    .left_section{
+        border-radius: 7px 7px 0 0;
+    }
+    .right_section{
+        border-radius: 0 0 7px 7px;
+    }
+}
