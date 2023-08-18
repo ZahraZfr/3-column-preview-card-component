@@ -11,7 +11,7 @@
 body {
     font-size: 15px;
     height: 100vh;
-    min-width: 20em;
+    min-width: 350px !important;
 }
 body , button {
     background-color:  hsl(0, 0%, 95%);
